@@ -47,7 +47,7 @@ export default function Campanies() {
   return (
     <div className='container mx-auto'>
       <span className='font-semibold text-sm mb-3'>Kampanyalar</span>
-      <Slider {...settings} className='-mx-2'>
+      <Slider {...settings} className='-mx-2 mt-3'>
         {campanies.map((item, key) => (
           <div>
             <picture className='block'>
